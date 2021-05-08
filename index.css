@@ -17,4 +17,7 @@ div
   color:var(--color);
   padding-right: var(--padding-right);
   margin-left: var(--margin-left);
+
+  width:200px;
+  height:200px;
 }
