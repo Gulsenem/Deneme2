@@ -1,5 +1,20 @@
 *{box-sizing: border-box;}
-body
-{
+body{
   margin:0;
+  display:flex
+}
+:root
+{
+  --accent:#DEDEDE;
+  --color:#888888;
+  --padding-right:10px;
+  --margin-left:5px;
+}
+
+div
+{
+  background-color: var(--accent);
+  color:var(--color);
+  padding-right: var(--padding-right);
+  margin-left: var(--margin-left);
 }
